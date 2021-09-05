@@ -6,7 +6,6 @@ package design.patterns.behavioral.chainofresponsibility.handler.auth.impl;
 import design.patterns.behavioral.chainofresponsibility.handler.auth.AuthenticationHandler;
 import design.patterns.behavioral.chainofresponsibility.request.AuthenticationRequest;
 import design.patterns.behavioral.chainofresponsibility.request.impl.OAuthTokenRequest;
-import org.springframework.security.oauth2.common.OAuth2AccessToken;
 
 import java.io.*;
 

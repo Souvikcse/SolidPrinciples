@@ -18,7 +18,7 @@ public class PersistenceFactory {
             case "Database":
                 return new DbPersistence();
             default:
-                Log.error("Invalid instance type");
+                //Log.error("Invalid instance type");
                 throw new IllegalArgumentException(String.format("invalid type: %s", type));
         }
     }

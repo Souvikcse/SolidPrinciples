@@ -7,6 +7,9 @@ import java.io.*;
 
 public class TextFileReceiver {
     private String filename;
+    public TextFileReceiver(String name){
+        filename = name;
+    }
 
     public String open() {
         return "Opening file " + filename;

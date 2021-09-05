@@ -3,7 +3,6 @@ package solid.lsp;
  * @author nayanava
  */
 
-import solid.lsp.factory.RectangleFactory;
 
 import java.io.*;
 
